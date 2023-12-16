@@ -6,21 +6,26 @@ import update from 'immutability-helper';
  */
 export function getAll() {
     return [
-        // {
-        //     id: 1,
-        //     text: 'Learn Javascript',
-        //     completed: false
-        // },
-        // {
-        //     id: 2,
-        //     text: 'Learn React',
-        //     completed: false
-        // },
-        // {
-        //     id: 3,
-        //     text: 'Build a React App',
-        //     completed: false
-        // }
+        {
+            id: 1,
+            text: 'Learn Javascript',
+            completed: false
+        },
+        {
+            id: 2,
+            text: 'Learn React',
+            completed: false
+        },
+        {
+            id: 3,
+            text: 'Build a React App',
+            completed: false
+        },
+        {
+            id: 4,
+            text: 'This is a test',
+            completed: true
+        }
     ]
 }
 
